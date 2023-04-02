@@ -14,3 +14,8 @@ enlaces.forEach(function(enlace) {
         });
     });
 });
+
+function mostrarModal() {
+    $('#mi-modal').modal('show');
+    print("Modal mostrar")
+}
